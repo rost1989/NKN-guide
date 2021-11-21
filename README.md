@@ -17,12 +17,19 @@ Special thanks to following resources:
 # Harware requirements
 
 Coins to launch miner: 10.1 NKN coins
+
 Operating system: Ubuntu is recommended (works perfectly with Debian)
+
 Memory: 1GB
+
 CPU: 1 CPU
+
 Disk space: ~20 GB
+
 Internet connection speed: 10Mbps up and down is a minimum
+
 IP address: 1 IP version 4 (IPv4)
+
 Ports: TCP/UDP ports 30001-30021
 
 # Guide
