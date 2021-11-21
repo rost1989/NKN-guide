@@ -6,6 +6,8 @@
 
 [Updating node](#updating-node)
 
+[Useful links](#useful-links)
+
 Special thanks to following resources:
 
 - [wiki.my-nkn.cloud](https://wiki.my-nkn.cloud/index.php/Mining_NKN_with_Linux#Disk_space);
@@ -215,3 +217,11 @@ sudo systemctl start nkn
 ```
 journalctl -f -u nkn
 ```
+
+
+# Useful links
+NKN website: https://nkn.org/
+NKN telegram: https://t.me/nknorg
+NKN discord: https://discord.com/invite/hrZvrVa
+Create wallet using web: https://wallet.nkn.org/
+Check node status: http://nstatus.org/
