@@ -1,6 +1,6 @@
 # NKN node guide
 
-[Harware requirements](#harware-requirements)
+[Hardware requirements](#harware-requirements)
 
 [Guide](#guide)
 
