@@ -1,12 +1,12 @@
 # NKN node guide
 
-[Harware requirements](##harware-requirements)
+[Harware requirements](#harware-requirements)
 
-[Guide](##guide)
+[Guide](#guide)
 
-[Updating node](##updating-node)
+[Updating node](#updating-node)
 
-## Harware requirements
+# Harware requirements
 
 Coins to launch miner: 10.1 NKN coins
 Operating system: Ubuntu is recommended (works perfectly with Debian)
@@ -17,7 +17,7 @@ Internet connection speed: 10Mbps up and down is a minimum
 IP address: 1 IP version 4 (IPv4)
 Ports: TCP/UDP ports 30001-30021
 
-## Guide
+# Guide
 
 1) Update & install newest versions of the packages for OS. And install packages make; curl; git :
 
@@ -148,7 +148,7 @@ sudo systemctl status nkn
 journalctl -f -u nkn
 ```
 
-## Updating node
+# Updating node
 
 1) Stop nkn service:
 
