@@ -27,17 +27,20 @@ apt-get upgrade -y
 apt-get install make curl git -y
 ```
 
+
 2) Add NKN user:
 
 ```
 adduser nkn
 ```
 
+
 3) Give nkn user super user rights adding it to the sudo-group:
 
 ```
 usermod -aG sudo nkn
 ```
+
 
 4) Install latest Go version (installing `go1.17.3`):
 
@@ -46,6 +49,7 @@ wget https://golang.org/dl/go1.17.3.linux-amd64.tar.gz
 
 sudo tar -C /usr/local -xvf go1.17.3.linux-amd64.tar.gz
 ```
+
 
 5) Update env variables to include `go`:
 
@@ -58,11 +62,13 @@ EOF
 source .bashrc
 ```
 
+
 6) Check 'go' version
 
 ```
 go version
 ```
+
 
 7) Create 'nknorg' folder and change directory to that folder: 
 
@@ -70,11 +76,13 @@ go version
 mkdir -p ~/go/src/github.com/nknorg && cd ~/go/src/github.com/nknorg
 ```
 
+
 8) Copy NKN repository to current folder ('nknorg')
 
 ```
 git clone https://github.com/nknorg/nkn.git
 ```
+
 
 9) Open 'nkn' folder
 
@@ -82,20 +90,24 @@ git clone https://github.com/nknorg/nkn.git
 cd nkn
 ```
 
+
 10) Build the source code with 'make' command
 
 ```
 make
 ```
  
+
 11) Copy existing 'config.mainnet.json' file to 'config.json'
 
 ```
 cp config.mainnet.json config.json
 ```
 
+
 12) Create separate wallet for rewards using https://wallet.nkn.org/.
 NOTE: Save `secret seed` and related account details (`public key, password`). You will need to use `secret seed & password` to recover your wallet.
+
 
 13) Create local wallet using command below.
 NOTE: Save file `wallet.json` and related account details (`public key, password`). You will need to use `wallet.json & password` to open your wallet using website https://wallet.nkn.org/ and to run NKN node.
@@ -104,7 +116,9 @@ NOTE: Save file `wallet.json` and related account details (`public key, password
 ./nknc wallet -c
 ```
 
+
 14) Send 10.1 mainnet NKN coins to a local wallet (created in above paragraph with command `./nknc wallet -c`)
+
 
 15) Go to home folder and create service file to run NKN node in the background:
 
@@ -128,6 +142,7 @@ WantedBy=default.target
 EOF
 ```
 
+
 16) Load service and start
 
 ```
@@ -136,11 +151,13 @@ sudo systemctl enable nkn
 sudo systemctl start nkn
 ```
 
+
 17) Check status of service
 
 ```
 sudo systemctl status nkn
 ```
+
 
 18) Check logs:
 
@@ -148,7 +165,9 @@ sudo systemctl status nkn
 journalctl -f -u nkn
 ```
 
+
 # Updating node
+
 
 1) Stop nkn service:
 
@@ -156,11 +175,13 @@ journalctl -f -u nkn
 sudo systemctl stop nkn
 ```
 
+
 2) Go to nkn directory:
 
 ```
 cd /home/nkn/go/src/github.com/nknorg/nkn
 ```
+
 
 3) Update current folder with up to date github repository:
 
@@ -168,17 +189,20 @@ cd /home/nkn/go/src/github.com/nknorg/nkn
 git pull
 ```
 
+
 4) Build the source code with 'make' command:
 
 ```
 make
 ```
 
+
 5) Start nkn service:
 
 ```
 sudo systemctl start nkn
 ```
+
 
 6) Check logs that everything works fine:
 
