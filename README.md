@@ -1,5 +1,11 @@
 # NKN node guide
 
+[Harware requirements](##harware-requirements)
+
+[Guide](##guide)
+
+[Updating node](##updating-node)
+
 ## Harware requirements
 
 Coins to launch miner: 10.1 NKN coins
