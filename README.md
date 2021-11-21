@@ -230,3 +230,5 @@ journalctl -f -u nkn
 **Create wallet using web**: https://wallet.nkn.org/
 
 **Check node status**: http://nstatus.org/
+
+**NKN explorer**: https://nscan.io/
