@@ -14,7 +14,7 @@ Special thanks to following resources:
 
 - [Christian Busch Medium Guide](https://medium.com/nknetwork/setting-up-a-nkn-miner-in-5-minutes-and-run-it-free-for-2-months-with-digitalocean-76bafcd82ae8)
 
-# Harware requirements
+# Hardware requirements
 
 **Coins to launch miner**: 10.1 NKN coins
 
