@@ -78,42 +78,42 @@ source .bashrc
 ```
 
 
-6) Check 'go' version
+6) Check `go` version
 
 ```
 go version
 ```
 
 
-7) Create 'nknorg' folder and change directory to that folder: 
+7) Create `nknorg` folder and change directory to that folder: 
 
 ```
 mkdir -p ~/go/src/github.com/nknorg && cd ~/go/src/github.com/nknorg
 ```
 
 
-8) Copy NKN repository to current folder ('nknorg')
+8) Copy NKN repository to current folder (`nknorg`)
 
 ```
 git clone https://github.com/nknorg/nkn.git
 ```
 
 
-9) Open 'nkn' folder
+9) Open `nkn` folder
 
 ```
 cd nkn
 ```
 
 
-10) Build the source code with 'make' command
+10) Build the source code with `make` command
 
 ```
 make
 ```
  
 
-11) Copy existing 'config.mainnet.json' file to 'config.json'
+11) Copy existing `config.mainnet.json` file to `config.json`
 
 ```
 cp config.mainnet.json config.json
