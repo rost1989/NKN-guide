@@ -50,13 +50,19 @@ adduser nkn
 ```
 
 
-3) Give nkn user super user rights adding it to the sudo-group. And switch to `nkn` user:
+3) Give nkn user super user rights adding it to the sudo-group. And switch to `nkn` user. Open home directory of nkn user:
 
 ```
 usermod -aG sudo nkn
+```
+
+```
 su nkn
 ```
 
+```
+cd ~
+```
 
 4) Install latest Go version (installing `go1.17.3`):
 
