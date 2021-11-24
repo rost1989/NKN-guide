@@ -61,9 +61,7 @@ su nkn
 4) Install latest Go version (installing `go1.17.3`):
 
 ```
-wget https://golang.org/dl/go1.17.3.linux-amd64.tar.gz
-
-sudo tar -C /usr/local -xvf go1.17.3.linux-amd64.tar.gz
+sudo wget https://golang.org/dl/go1.17.3.linux-amd64.tar.gz && sudo tar -C /usr/local -xvf go1.17.3.linux-amd64.tar.gz
 ```
 
 
