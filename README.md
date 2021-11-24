@@ -140,7 +140,8 @@ NOTE: Save file `wallet.json` and related account details (`public key, password
 14) Send 10.1 mainnet NKN coins to a local wallet (created in above paragraph with command `./nknc wallet -c`)
 
 
-15) Go to home folder and create service file to run NKN node in the background:
+15) Go to home folder and create service file to run NKN node in the background.
+**NOTE: Change <YOUR_WALLET_PASSWORD> in the service file below to the password from your local wallet**
 
 ```
 cd ~
