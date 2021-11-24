@@ -141,6 +141,7 @@ NOTE: Save file `wallet.json` and related account details (`public key, password
 
 
 15) Go to home folder and create service file to run NKN node in the background.
+
 **NOTE: Change <YOUR_WALLET_PASSWORD> in the service file below to the password from your local wallet**
 
 ```
