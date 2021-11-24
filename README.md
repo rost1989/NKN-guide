@@ -210,9 +210,10 @@ git pull
 ```
 
 
-4) Build the source code with 'make' command:
+4) Clean old files & build the source code with 'make' command:
 
 ```
+make deepclean
 make
 ```
 
