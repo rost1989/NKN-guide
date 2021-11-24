@@ -50,10 +50,11 @@ adduser nkn
 ```
 
 
-3) Give nkn user super user rights adding it to the sudo-group:
+3) Give nkn user super user rights adding it to the sudo-group. And switch to `nkn` user:
 
 ```
 usermod -aG sudo nkn
+su nkn
 ```
 
 
