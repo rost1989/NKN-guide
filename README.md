@@ -39,6 +39,9 @@ Special thanks to following resources:
 ```
 apt-get update
 apt-get upgrade -y
+```
+
+```
 apt-get install make curl git -y
 ```
 
